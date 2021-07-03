@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/photo"
+    tools:context=".Main4Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Instructions to Follow:\n\n
+1)The count starts from 1 to 8\n\n2).If you click on any button
+the number will be 1 and if you click on next any of your choice
+button then it will be 2.\n\n3).If you place any number in any
+position then it's adjacent cells and diagonal cells difference
+must not be 1\n\n4).If you place likewise then you are correct."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="START"
+        android:onClick="strt"
+        android:id="@+id/but"
+        android:textSize="20sp"
+        android:background="#000000"
+        android:textColor="#ffffff"/>
+</LinearLayout>
